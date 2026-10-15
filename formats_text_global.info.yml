@@ -1,0 +1,22 @@
+name: 'Global text formats'
+machine_name: 'formats_text_global'
+description: 'A collection of globally shared text formats. These formats can be reused in modules and when managing content through the Drupal administration interface.'
+# lifecycle:
+# lifecycle_link:
+# project status url:
+package: Site structure
+type: module
+core_version_requirement: ^11 || ^12
+php: 8.3
+dependencies:
+  - drupal:field
+  - drupal:filter
+  - drupal:node
+  - drupal:system
+  - drupal:text
+  - drupal:user
+# test_dependencies:
+# configure:
+# configure_parameters:
+# hidden:
+# required:
