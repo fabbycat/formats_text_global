@@ -1,4 +1,6 @@
 {
+    "name": "drupal/format_texts_global",
+    "description": "A collection of globally shared fields for content types (node). These field types can be reused in modules and when managing content through the Drupal administration interface.",
     "type": "module",
     "devDependencies": {
         "@commitlint/cli": "^21.2.3",
