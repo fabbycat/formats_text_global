@@ -34,7 +34,7 @@ export default {
                 // Development tools
                 'tools',
 
-                // Work in progrees, not ready for review or merge
+                // Work in progress, not ready for review or merge
                 'wip',
 
             ],
