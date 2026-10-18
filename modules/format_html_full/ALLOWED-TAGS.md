@@ -5,11 +5,11 @@
 
 | Tag       | Description | Included | Query | Notes |
 |-----------|-------------|----------|-------|-------|
-| <a>       |             | ✅        |       | [^]      |
-| <abbr>    |             | ✅        |       |       |
-| <address> |             | ❌        |       |       |
-| <area>    |             | ❌        |       |       |
-| <audio>   |             | ❌        |       |       |
+| \<a\>       |             | ✅        |       | [^]      |
+| \<abbr\>    |             | ✅        |       |       |
+| \<address\> |             | ❌        |       |       |
+| \<area\>    |             | ❌        |       |       |
+| \<audio\>   |             | ❌        |       |       |
 
 
 ## Drupal Specific
