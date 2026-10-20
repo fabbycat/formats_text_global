@@ -128,23 +128,3 @@
 
 [^1]: Tag is a form component:  
   Unnecessary for content editors.
-
-  Dangerous for use in site content.
-
-  Forms should only be created and managed by those with higher privileges such as site administrators.
-
-  Drupal provides a safer, more manageable way to create and consume forms.
-
-[^2]: Tag is a structural component:
-
-  Drupal core handles structural tags through the Twig template engine.
-
-  Drupal modules add additional handling of structural tags through the Twig template engine.
-
-  Use of structural tags may confuse semantic markup and therefore result in failures to achieve a good standard of accessibility.
-
-[^3]: Tag is a media component:  
-
-  Drupal provides a more rounded way of handling of this type of content through the core media module.
-
-  Links and changes are managed through the media module.
