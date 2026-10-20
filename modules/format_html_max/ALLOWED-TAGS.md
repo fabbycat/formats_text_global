@@ -126,13 +126,12 @@
 
 ---
 
-[^1]: Tag is a form component:
-
+[^1]: Tag is a form component:  
   Unnecessary for content editors.
 
   Dangerous for use in site content.
 
-  Forms should only be created and managed by those with high privilege.
+  Forms should only be created and managed by those with higher privileges such as site administrators.
 
   Drupal provides a safer, more manageable way to create and consume forms.
 
