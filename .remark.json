@@ -1,0 +1,17 @@
+{
+    "plugins": [
+
+        [
+            "remark-lint-maximum-line-length",
+            100
+        ],
+        [
+            "remark-lint-no-undefined-references",
+            {
+                "allow": [
+                    "[^#]"
+                ]
+            }
+        ]
+    ]
+}

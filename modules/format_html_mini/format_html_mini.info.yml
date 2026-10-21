@@ -1,6 +1,6 @@
-name: 'Global text formats'
-machine_name: 'formats_text_global'
-description: 'A collection of globally shared text formats. These formats can be reused in modules and when managing content through the Drupal administration interface.'
+name: 'Mini HTML'
+machine_name: 'format_html_mini'
+description: 'A text format that allows the use of a wide range of HTML tags and attributes. It should only be considered for the most trusted users with the highest levels of privilege.'
 # lifecycle:
 # lifecycle_link:
 # project status url:
@@ -15,6 +15,7 @@ dependencies:
   - drupal:system
   - drupal:text
   - drupal:user
+  - text_format_confs:text_format_confs
 # test_dependencies:
 # configure:
 # configure_parameters:

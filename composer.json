@@ -1,6 +1,6 @@
 {
-    "name": "formats_text_global/formats_text_global",
-    "description": "A collection of globally shared text formats. These formats can be reused in modules and when managing content through the Drupal administration interface.",
+    "name": "text_format_confs/text_format_confs",
+    "description": "A collection text format configurations and filter rules for Drupal. These formats can be reused in modules and when managing content through the Drupal administration interface.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
     "require": {

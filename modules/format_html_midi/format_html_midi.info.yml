@@ -1,0 +1,23 @@
+name: 'Midi HTML'
+machine_name: 'format_html_midi'
+description: 'A text format that allows the use of a wide range of HTML tags and attributes. It should only be considered for the most trusted users with the highest levels of privilege.'
+# lifecycle:
+# lifecycle_link:
+# project status url:
+package: Site structure
+type: module
+core_version_requirement: ^11 || ^12
+php: 8.3
+dependencies:
+  - drupal:field
+  - drupal:filter
+  - drupal:node
+  - drupal:system
+  - drupal:text
+  - drupal:user
+  - text_format_confs:text_format_confs
+# test_dependencies:
+# configure:
+# configure_parameters:
+# hidden:
+# required:
