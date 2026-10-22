@@ -7,6 +7,7 @@ name: 'HTML: Maxi Format'
 format: format_html_maxi_pipeline
 weight: 0
 filters:
+  # Restrict and clean HTML
   filter_html:
     id: filter_html
     provider: filter
@@ -16,14 +17,14 @@ filters:
       allowed_html: "<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type='1 A I'> <li> <dl> <dt> <dd> <h2 id='jump-*'> <h3 id> <h4 id> <h5 id> <h6 id><drupal-media data-entity-type data-entity-uuid>"
       filter_html_help: true
       filter_html_nofollow: false
-# Update entity links automatically  
+  # Update entity links automatically
   entity_links:
     id: entity_links
     provider: filter
     status: true
     weight: 0
-    settings: {  }
-# Alignment of images, tables, etc. 
+    settings: {}
+  # Alignment of images, tables, etc.
   filter_align:
     id: filter_align
     provider: filter
