@@ -1,0 +1,10 @@
+{
+    "name": "format_html_midi/format_html_midi",
+    "description": "A HTML source code format that allows a balanced range of HTML tags and attributes. It can be considered for more trusted content editors users with a good knowledge of HTML.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.3",
+        "drupal/core": "^11.0 || ^12.0"
+    }
+}

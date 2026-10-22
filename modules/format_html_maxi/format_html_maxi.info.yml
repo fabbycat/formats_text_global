@@ -1,10 +1,10 @@
 name: 'HTML, Maxi Format'
 machine_name: 'format_html_maxi'
-description: 'A text format that allows the use of a wide range of HTML tags and attributes. It should only be considered for the most trusted users with the highest levels of privilege.'
+description: 'A HTML source code editing format that allows the use of a wide range of HTML tags and attributes. It should only be considered for the most trusted users with the highest levels of privilege.'
 # lifecycle:
 # lifecycle_link:
 # project status url:
-package: Site structure
+package: Text formats
 type: module
 core_version_requirement: ^11 || ^12
 php: 8.3
@@ -15,7 +15,7 @@ dependencies:
   - drupal:system
   - drupal:text
   - drupal:user
-  - text_format_rules:text_format_rules
+  - text_format_confs:text_format_confs
 # test_dependencies:
 # configure:
 # configure_parameters:

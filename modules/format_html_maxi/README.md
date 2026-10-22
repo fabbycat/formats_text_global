@@ -1,3 +1,5 @@
-# HTML Format, Maxi
+# HTML, Maxi Format
 
-A text format that allows the use of a wide range of HTML tags and attributes. It should only be considered for the most trusted users with the highest levels of privilege.
+A text filter supporting a large number of tags and attributes. The filter may open the site to
+security risks if misused. Only the most trusted users with a good knowledge of HTML, tag attributes
+and CSS should be given permissions for it's usage.

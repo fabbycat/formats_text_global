@@ -1,10 +1,10 @@
-name: 'Midi HTML'
+name: 'HTML, Midi Format'
 machine_name: 'format_html_midi'
-description: 'A text format that allows the use of a wide range of HTML tags and attributes. It should only be considered for the most trusted users with the highest levels of privilege.'
+description: 'A HTML source code format that allows a balanced range of HTML tags and attributes. It can be considered for more trusted content editors users with a good knowledge of HTML.'
 # lifecycle:
 # lifecycle_link:
 # project status url:
-package: Site structure
+package: Text formats
 type: module
 core_version_requirement: ^11 || ^12
 php: 8.3

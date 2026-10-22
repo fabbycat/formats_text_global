@@ -1,7 +1,10 @@
 # Shared Text Formats
 
-A collection text format configurations and filter rules for Drupal. These formats can be reused
-in modules and when managing content through the Drupal administration interface. They are also available for configuration through the _\> admin \> config \> content \> formats_ page.
+A collection of text formats ranging from minimally restricted to tightly restricted. These
+formats can be reused in modules and when managing content through the Drupal administration
+interface. They are also available for configuration using by navigating to:
+
+_\> admin \> config \> content \> formats_ page
 
 ## HTML Source Code Formats
 
@@ -9,7 +12,8 @@ Formats for editing a textarea directly as HTML source code.
 
 ### HTML Format, Maxi
 
-A text format that allows the use of a wide range of HTML tags and attributes. It should only be considered for the most trusted users with the highest levels of privilege. 
+A text format that allows the use of a wide range of HTML tags and attributes. It should only be
+considered for the most trusted users with the highest levels of privilege. 
 
 This HTML has the following settings enabled:
 
