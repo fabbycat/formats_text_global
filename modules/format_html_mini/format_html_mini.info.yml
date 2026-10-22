@@ -1,4 +1,4 @@
-name: 'HTML, Mini Format'
+name: 'HTML: Mini Format'
 machine_name: 'format_html_mini'
 description: 'A restricted HTML source code editor with a very limited range of tags and no attributes.'
 # lifecycle:

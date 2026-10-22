@@ -1,1 +1,1 @@
-# CKEditor, Midi Format
+# CKEditor: Midi Format

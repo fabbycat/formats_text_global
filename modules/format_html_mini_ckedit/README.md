@@ -1,1 +1,1 @@
-# CKEditor, Mini Format
+# CKEditor: Mini Format

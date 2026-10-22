@@ -3,10 +3,26 @@ status: true
 dependencies:
   module:
     - media
-name: 'HTML, Maxi Format'
+name: 'HTML: Maxi Format'
 format: format_html_maxi_pipeline
 weight: 0
 filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: "<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type='1 A I'> <li> <dl> <dt> <dd> <h2 id='jump-*'> <h3 id> <h4 id> <h5 id> <h6 id><drupal-media data-entity-type data-entity-uuid>"
+      filter_html_help: true
+      filter_html_nofollow: false
+# Update entity links automatically  
+  entity_links:
+    id: entity_links
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
 # Alignment of images, tables, etc. 
   filter_align:
     id: filter_align
@@ -21,20 +37,6 @@ filters:
     status: true
     weight: 0
     settings: {}
-  # Ensure images are only from this site.
-  filter_html_image_secure:
-    id: filter_html_image_secure
-    provider: filter
-    status: true
-    weight: 9
-    settings: {}
-  # Allow images to lazy load when dimensions are known
-  filter_image_lazy_load:
-    id: filter_image_lazy_load
-    provider: filter
-    status: true
-    weight: 15
-    settings: {}
   # Ensure long URLS are truncated to prevent breakages in formatting
   filter_url:
     id: filter_url
@@ -43,6 +45,13 @@ filters:
     weight: 0
     settings:
     filter_url_length: 72
+  # Ensure images are only from this site.
+  filter_html_image_secure:
+    id: filter_html_image_secure
+    provider: filter
+    status: true
+    weight: 9
+    settings: {}
 # Use media module to control embed media
 #  media_embed:
 #    id: media_embed

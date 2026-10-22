@@ -1,4 +1,4 @@
-name: 'CKEditor, Midi Format'
+name: 'CKEditor: Midi Format'
 machine_name: 'format_html_midi_ckedit'
 description: 'A CKEditor format that allows the use of a well balanced range of HTML tags and attributes.'
 # lifecycle:

@@ -1,4 +1,4 @@
-name: 'HTML, Midi Format'
+name: 'HTML: Midi Format'
 machine_name: 'format_html_midi'
 description: 'A HTML source code format that allows a balanced range of HTML tags and attributes. It can be considered for more trusted content editors users with a good knowledge of HTML.'
 # lifecycle:

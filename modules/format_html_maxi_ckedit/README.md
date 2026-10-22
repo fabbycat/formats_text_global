@@ -1,1 +1,1 @@
-# CKEditor, Maxi Format
+# CKEditor: Maxi Format

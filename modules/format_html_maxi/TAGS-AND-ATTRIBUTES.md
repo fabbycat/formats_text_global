@@ -1,4 +1,4 @@
-# HTML, Maxi Format
+# HTML: Maxi Format
 
 A text filter supporting a large number of tags and attributes. The filter may open the site to
 security risks if misused. Only the most trusted users with a good knowledge of HTML, tag attributes
