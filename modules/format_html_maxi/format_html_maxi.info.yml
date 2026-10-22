@@ -11,6 +11,7 @@ php: 8.3
 dependencies:
   - drupal:field
   - drupal:filter
+  - drupal:media
   - drupal:node
   - drupal:system
   - drupal:text

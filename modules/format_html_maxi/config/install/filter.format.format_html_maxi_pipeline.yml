@@ -1,0 +1,59 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+name: 'HTML, Maxi Format'
+format: format_html_maxi_pipeline
+weight: 0
+filters:
+# Alignment of images, tables, etc. 
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: 0
+    settings: {}
+  # Image captions.
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: true
+    weight: 0
+    settings: {}
+  # Ensure images are only from this site.
+  filter_html_image_secure:
+    id: filter_html_image_secure
+    provider: filter
+    status: true
+    weight: 9
+    settings: {}
+  # Allow images to lazy load when dimensions are known
+  filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
+    status: true
+    weight: 15
+    settings: {}
+  # Ensure long URLS are truncated to prevent breakages in formatting
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+    filter_url_length: 72
+# Use media module to control embed media
+#  media_embed:
+#    id: media_embed
+#    provider: media
+#    status: true
+#    weight: 100
+#    settings:
+#      default_view_mode: default
+#      allowed_view_modes:
+#        default: default
+#        full: full
+#        media_library: media_library
+#      allowed_media_types: {}
+#
