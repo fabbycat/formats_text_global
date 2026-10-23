@@ -10,25 +10,25 @@ and CSS should be given permissions for it's usage.
 
 |   Tag              |   Attributes                   |   ✅❌❔   |
 |  ----------------  |  ----------------------------  |  --------  |
-|   \<a>            |   aria-label, href, hreflang   |   ✅       |
-|   \<abbr>         |   class                        |   ✅       |
-|   \<address>      |   class                        |      ❌       |
+|   \<a>            |   aria-label, class, dir, href, hreflang   |   ✅       |
+|   \<abbr>         |   class, dir, lang                        |   ✅       |
+|   \<address>      |   class , dir, lang                       |      ❌       |
 |   \<area>         |                                |   ❌       |
 |   \<article><sup>[forms](#forms)</sup>      |                               ❌       |
-|   \<aside>        |   class                        |   ✅❔     |
+|   \<aside>        |   class, dir, lang                        |   ✅❔     |
 |   \<audio>        |                                |      ❌       |
 |   \<b>            |                                |   ✅       |
 |   \<base>         |                                |   ❌       |
 |   \<bdi>          |                                |   ❌       |
 |   \<bdo>          |                                |   ❌       |
-|   \<blockquote>   |   cite, class                  |   ✅       |
+|   \<blockquote>   |   cite, class, dir, lang                  |   ✅       |
 |   \<body>         |                                |   ❌       |
 |   \<br>           |                                |   ✅       |
 |   \<button>       |                                |   ❌       |
 |   \<canvas>       |                                |   ❌       |
-|   \<caption>      |   class                        |   ✅       |
-|   \<cite>         |   class                        |   ✅       |
-|   \<code>         |   class                        |   ✅       |
+|   \<caption>      |   class, dir, lang                        |   ✅       |
+|   \<cite>         |   class, dir, lang                        |   ✅       |
+|   \<code>         |   class, dir, lang                        |   ✅       |
 |   \<col>          |                                |   ✅       |
 |   \<colgroup>     |                                |   ✅       |
 |   \<data>         |                                |   ❌       |
@@ -36,93 +36,93 @@ and CSS should be given permissions for it's usage.
 |   \<dd>           |                                |   ✅       |
 |   \<del>          |                                |   ✅       |
 |   \<details>      |                                |   ❌       |
-|   \<dfn>          |   class                        |   ✅       |
+|   \<dfn>          |   class, dir, lang                        |   ✅       |
 |   \<dialogue>     |                                |   ❌       |
-|   \<div>          |   class                        |   ✅❔     |
-|   \<dl>           |   class                        |   ✅       |
-|   \<dt>           |   class                        |   ✅       |
+|   \<div>          |   class, dir, lang                        |   ✅❔     |
+|   \<dl>           |   class, dir, lang                        |   ✅       |
+|   \<dt>           |   class, dir, lang                        |   ✅       |
 |   \<em>           |                                |   ✅       |
 |   \<embed>        |                                |   ❌       |
 |   \<fieldset>     |                                |   ❌       |
-|   \<figcaption>   |   class                        |   ✅       |
-|   \<figure>       |   class                        |   ✅       |
+|   \<figcaption>   |   class, dir, lang                        |   ✅       |
+|   \<figure>       |   class, dir, lang                        |   ✅       |
 |   \<footer>       |                                |   ❌       |
 |   \<form>         |                                |   ❌       |
 |   \<head>         |                                |   ❌       |
 |   \<header>       |                                |   ❌       |
-|   \<hgroup>       |   class                        |   ✅❔     |
+|   \<hgroup>       |   class, dir, lang                        |   ✅❔     |
 |   \<h1>           |                                |   ❌       |
-|   \<h2>           |   class, id                    |   ✅       |
-|   \<h3>           |   class, id                    |   ✅       |
-|   \<h4>           |   class, id                    |   ✅       |
-|   \<h5>           |   class, id                    |   ✅       |
-|   \<h6>           |   class, id                    |   ✅       |
+|   \<h2>           |   class, dir, id, lang                    |   ✅       |
+|   \<h3>           |   class, dir, id, lang                    |   ✅       |
+|   \<h4>           |   class, dir, id, lang                    |   ✅       |
+|   \<h5>           |   class, dir, id, lang                    |   ✅       |
+|   \<h6>           |   class, dir, id, lang                    |   ✅       |
 |   \<hr>           |                                |   ✅       |
 |   \<html>         |                                |   ❌       |
 |   \<i>            |                                |   ✅       |
 |   \<iframe>       |                                |   ❌       |
 |   \<img>          |                                |   ❌       |
-|   \<ins>          |   class                        |   ✅       |
+|   \<ins>          |   class, dir, lang                        |   ✅       |
 |   \<kbd>           |                                |   ❌       |
 |   \<keygen>       |                                |   ❌       |
 |   \<label>        |                                |   ❌       |
 |   \<legend>       |                                |   ❌       |
-|   \<li>           |   class                        |   ✅       |
+|   \<li>           |   class, dir, lang                        |   ✅       |
 |   \<link>         |                                |   ❌       |
 |   \<main>         |                                |   ❌       |
 |   \<map>          |                                |   ❌       |
-|   \<mark>         |   class                        |   ✅       |
+|   \<mark>         |   class, dir, lang                        |   ✅       |
 |   \<menu>         |                                |   ❌       |
 |   \<menuitem>     |                                |   ❌       |
 |   \<meta>         |                                |   ❌       |
-|   \<meter>        |   class                        |   ✅       |
+|   \<meter>        |   class, dir, lang                        |   ✅       |
 |   \<nav>          |                                |   ❌       |
 |   \<noscript>     |                                |   ❌       |
 |   \<object>       |                                |   ❌       |
-|   \<ol>           |   class, start, type           |   ✅       |
+|   \<ol>           |   class, dir, lang, start, type           |   ✅       |
 |   \<optgroup>     |                                |   ❌       |
 |   \<option>       |                                |   ❌       |
 |   \<output>       |                                |   ❌       |
-|   \<p>            |   class                        |   ✅       |
+|   \<p>            |   class, dir, lang                        |   ✅       |
 |   \<param>        |                                |   ❌       |
 |   \<picture>      |                                |   ❌       |
-|   \<pre>          |   class                        |   ✅       |
+|   \<pre>          |   class, dir, lang                        |   ✅       |
 |   \<progress>     |                                |   ❌       |
-|   \<q>            |   class                        |   ✅       |
+|   \<q>            |   class, dir, lang                        |   ✅       |
 |   \<rp>           |                                |   ❌       |
 |   \<rt>           |                                |   ❌       |
 |   \<ruby>         |                                |   ❌       |
-|   \<s>            |   class                        |   ✅       |
-|   \<samp>         |   class                        |   ✅       |
+|   \<s>            |   class, dir, lang                        |   ✅       |
+|   \<samp>         |   class, dir, lang                        |   ✅       |
 |   \<script>       |                                |   ❌       |
-|   \<section>      |   class                        |   ✅❔     |
+|   \<section>      |   class, dir, lang                        |   ✅❔     |
 |   \<select>       |                                |   ❌       |
-|   \<small>        |   class                        |   ✅       |
+|   \<small>        |   class, dir, lang                        |   ✅       |
 |   \<source>       |                                |   ❌       |
-|   \<span>         |   class                        |   ✅       |
-|   \<strong>       |   class                        |   ✅       |
+|   \<span>         |   class, dir, lang                        |   ✅       |
+|   \<strong>       |   class, dir, lang                        |   ✅       |
 |   \<style>        |                                |   ❌       |
-|   \<sub>          |   class                        |   ✅       |
+|   \<sub>          |   class, dir, lang                        |   ✅       |
 |   \<summary>      |                                |   ❌       |
-|   \<sup>          |   class                        |   ✅       |
+|   \<sup>          |   class, dir, lang                        |   ✅       |
 |   \<svg>          |                                |   ❌       |
-|   \<table>        |   class                        |   ✅       |
-|   \<tbody>        |   class                        |   ✅       |
-|   \<td>           |   class                        |   ✅       |
+|   \<table>        |   class, dir, lang                        |   ✅       |
+|   \<tbody>        |   class, dir, lang                        |   ✅       |
+|   \<td>           |   class, dir, lang                        |   ✅       |
 |   \<template>     |                                |   ❌       |
 |   \<textarea>     |                                |   ❌       |
-|   \<tfoot>        |   class                        |   ✅       |
-|   \<th>           |   class                        |   ✅       |
-|   \<thead>        |   class                        |   ✅       |
-|   \<time>         |   class                        |   ✅       |
+|   \<tfoot>        |   class, dir, lang                        |   ✅       |
+|   \<th>           |   class, dir, lang                        |   ✅       |
+|   \<thead>        |   class, dir, lang                        |   ✅       |
+|   \<time>         |   class, dir, lang                        |   ✅       |
 |   \<title>        |                                |   ❌       |
-|   \<tr>           |   class                        |   ✅       |
+|   \<tr>           |   class, dir, lang                        |   ✅       |
 |   \<track>        |                                |   ❌       |
-|   \<u>            |   class                        |   ✅       |
-|   \<ul>           |   class                        |   ✅       |
-|   \<var>          |   class                        |   ✅       |
+|   \<u>            |   class, dir, lang                        |   ✅       |
+|   \<ul>           |   class, dir, lang                        |   ✅       |
+|   \<var>          |   class, dir, lang                        |   ✅       |
 |   \<video>        |                                |   ❌       |
-|   \<wbr>          |   class                        |   ✅       |
+|   \<wbr>          |   class, dir, lang                        |   ✅       |
 
 ### Drupal Specific Tags
 
